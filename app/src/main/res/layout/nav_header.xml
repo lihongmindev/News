@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:padding="10dp"
+    android:background="?attr/colorPrimary">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/icon_image"
+        android:src="@drawable/nav_icon"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/shoucang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="4dp"
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="10dp"
+        android:text="@string/shoucang"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/star" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/denglu"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lixian"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="4dp"
+        android:drawableLeft="@drawable/download"
+        android:text="@string/offlinedownload"
+        android:background="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/download" />
+
+
+</RelativeLayout>

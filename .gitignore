@@ -1,0 +1,17 @@
+*.idea/                 
+*.patch
+*.classpath
+*.project
+*.settings/
+*bin/
+*project.properties
+
+          
+build
+app/build/
+app/release/
+.gradle/
+gradle.properties
+app/local.properties
+local.properties
+*.iml
